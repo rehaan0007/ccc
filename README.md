@@ -50,14 +50,6 @@ New request is assigned to **S2** because it has the least load.
 
 ---
 
-### Implementation in Code
-
-```c
-int select_server() {
-    int min = 0;
-    for (int i = 1; i < MAX_SERVERS; i++) {
-        if (servers[i].active_connections < servers[min].active_connections)
-            min = i;
-    }
-    return min;
-}
+ARPAN PRAMANIK (AP24110010163)
+RAMAYANAPU JAGATH(AP24110010224)
+MRUTYUNJAY MANAS (AP24110010101)
